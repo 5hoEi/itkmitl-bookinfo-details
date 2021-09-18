@@ -14,6 +14,6 @@ ruby details.rb 9080
 docker build -t details .
 
 # Run Ruby
-docker run -d --name detail -p 8081:8081 detail
+docker run -d --name detail -p 8081:8081 details
 
 * Test with path `/details/1` and `/health`
