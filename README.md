@@ -13,6 +13,13 @@ ruby details.rb 9080
 # Build Docker Image for details service
 docker build -t details .
 
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
+
+
 # Run Ruby
 docker run -d --name detail -p 8081:8081 details
 
