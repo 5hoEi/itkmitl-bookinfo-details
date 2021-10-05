@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/5hoei/bookinfo-details:dev
+    ports:
+      - "8081:8081"
+    
